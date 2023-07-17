@@ -1,0 +1,85 @@
+/* google fonts extra here  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Open+Sans:ital,wght@0,600;0,800;1,800&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+
+/* for all the elements common properties   */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #727272;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.6rem; /* 162.5% */
+}
+.common-heading{
+    color: #131313;
+font-size: 3rem;
+font-weight: 700;
+}
+.common-btn{
+    color: #fff;
+    background-color: #FF900E;
+    padding: 1.5rem 1.3rem;
+    border-radius: 5px;
+    border: 0;
+    
+}
+/* this is header section styling  */
+header{
+    background: #ff8f0e56;
+    padding: 45px 240px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+nav >ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    color: #fff;
+}
+nav ul li a{
+    color: #fff;
+}
+.banner-text{
+    margin-top: 45px;
+   text-align: center;
+}
+img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+/* responsive area  */
+
+/* this is for small devices  */
+@media  screen and (max-width:570px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        display: block;
+    }
+    
+}
+/* this is for medioum devices  */
+@media screen and (max-width:960px) and (min-width:570px) {
+    
+}
+
+
+
